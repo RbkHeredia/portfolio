@@ -1,0 +1,118 @@
+.cont-technologies{
+    width: 100%;
+    overflow-y: hidden;
+    background-color: #1b1b1b;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cont-title-tech{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.carousel-cont{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 20vh 0;
+}
+
+.carouselCSS{
+    width: 80%;
+}
+
+.cont-tech{
+    padding: 2vh;
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+}
+
+.img-carousel{
+    border-radius: 15px ;
+    margin-right: 2vh;
+    width: 50%;
+}
+
+.color-Black{
+    color: black;
+}
+
+.backg-dates{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 45%;
+}
+
+.backg-dates > h3{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.backg-dates > p{
+    font-size: 1.5vw;
+}
+
+.img-logos{
+    height: 6vw;
+    width: 6vw;
+    max-width: 10vh;
+    max-height: 10vh;
+    overflow: hidden;
+    display: flex;
+    margin: 2vh;
+    border-radius: 5px;
+    justify-content: center;
+    
+}
+
+.flex-tech{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.carousel-caption{
+    top: 10rem;
+}
+
+@media screen and (max-width:800px) {
+    .cont-tech{
+        flex-direction: column;
+    }
+
+    .img-carousel{
+        width: 100%;
+    }
+
+    .carousel-caption{
+        top: 7rem;
+        bottom: 15rem !important;
+    }
+
+    .backg-dates{
+        width:80%;
+    }
+
+    .flex-tech{
+        height: 30vh;
+        width: 100%;
+        margin-left: 3vh;
+    }
+    .img-logos{
+        width: 11vw;
+        height: 11vw;
+    }
+    
+}

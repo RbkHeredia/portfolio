@@ -1,0 +1,51 @@
+.cont-photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mask-photo{
+    max-width: 50%;
+    clip-path: ellipse(50% 35% at 50% 51%);
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    width: 30vw;
+}
+
+.cont-text{
+    max-width: 45%;
+    font-weight: 300;
+}
+
+.cont-text > h1{
+    font-size: 3vw;
+}
+
+.cont-text > p{
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width:480px) {
+    .cont-photo{
+        flex-direction: column;
+    }
+    .mask-photo{
+        height: 30vh;
+    }
+    .cont-text{
+        max-width: 70%;
+    }
+
+    .cont-text > h1{
+        font-size: 6vw;
+    }
+    
+    .cont-text > p{
+        font-size: 3vw;
+    }
+}
