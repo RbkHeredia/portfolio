@@ -14,7 +14,8 @@
 }
 
 .photo{
-    width: 30vw;
+    margin-top: 2vh;
+    width: 28vw;
 }
 
 .cont-text{
@@ -35,7 +36,7 @@
         flex-direction: column;
     }
     .mask-photo{
-        height: 30vh;
+        height: 50vw;
     }
     .cont-text{
         max-width: 70%;

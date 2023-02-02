@@ -14,8 +14,8 @@ export default function Technologies (){
   const carouselDates = [
     {id:1, name: 'Turnero-odontologia', description: 'Backend de turnero con login de usuario', tecnologias:['nodejs.png', 'graphql.png', 'sequelize.png', 'webpack.png', 'express-js.png', 'apollo.png', 'jwt.png'], imagen: 'backend-passera.jpg'},
     {id:2, name: 'Turnero-odontologia', description: 'Frontend de turnero con login de usuario', tecnologias: ['react.png', 'apollo.png'], imagen: 'frontend-passera.jpg'},
-    {id:3, name: 'Portfolio', description: 'Portfolio personal', tecnologias: ['react.png', 'bootstrap.png'], imagen: 'pantallaMuestra'},
-    {id:4, name: 'Input-tag-box', description: 'Caja creadora de chips a traves de inputs y manejor de teclado', tecnologias: ['react.png', 'mui.png'], imagen: 'input-tag.jpg'}
+    {id:3, name: 'Portfolio', description: 'Portfolio personal', tecnologias: ['react.png', 'bootstrap.png'], imagen: 'portfolio.jpg'},
+    {id:4, name: 'Input-tag-box', description: 'Caja creadora de chips a traves de inputs y manejor de teclado', tecnologias: ['react.png', 'mui.png'], imagen: 'input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'}
 
   ]
   return(
