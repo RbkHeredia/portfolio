@@ -76,7 +76,7 @@
 }
 
 .mask-photo > h4{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 
@@ -110,10 +110,14 @@
     }
 
     .cont-video{
-        margin-top: 2vh;
+        margin-top: 1vh;
+        display: flex;
+        height: 100%;
     }
     
     .video{
-        max-height: 70vh;
+        position: absolute;
+        height: 100vh;
+        left: -40vh;
     }
 }

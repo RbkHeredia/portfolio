@@ -1,7 +1,7 @@
 .cont-technologies{
+    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(235,205,148,0.9977240896358543) 53%, rgba(255,196,0,1) 100%);
     width: 100%;
     overflow-y: hidden;
-    background-color: #1b1b1b;
     color: white;
     height: 100vh;
     overflow: hidden;

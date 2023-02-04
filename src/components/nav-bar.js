@@ -5,7 +5,7 @@ export default function NavBar (){
   return(
     <div className="container-nav">
       <li className='container-list'>
-        <Link to='/'>
+        <Link to='/portfolio'>
           <ul >Sobre mi</ul>
         </Link>
         <Link to='/projects'>

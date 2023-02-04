@@ -1,6 +1,18 @@
-.cont-contact{
-    margin-top: 10vh;
+.cont-all{
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(235,205,148,0.9977240896358543) 53%, rgba(255,196,0,1) 100%);
     width: 100%;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-contact{
+    background-color: #ffffff;
+    height: fit-content;
+    padding: 4vh 0;
+    border-radius: 15px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,13 +32,31 @@
 }
 
 .cont-contact-info{
+
     height: 30vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 4vh;
-    flex-direction: column;
+    flex-direction: row;
 }
+
+.cont-contact-info > a{
+    color:#747474;
+}
+
+.cont-contact-info > a:hover{
+    color:rgb(209, 161, 3);
+}
+
+
+
+.icon-brand{
+    font-size: 7vh;
+    margin-right: 5vh;
+}
+
+
 
 .cont-form{
     width: 40%;
@@ -105,8 +135,8 @@ label{
 	transition:transform .5s ease-in;
 }
 .to-top:hover{
-	color:#650b65;
-	border-color:#650b65;
+	color:rgb(209, 161, 3);
+	border-color:rgb(209, 161, 3);
 }
 .to-top:hover:before{
     scale: 1.1;
