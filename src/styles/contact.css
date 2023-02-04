@@ -107,7 +107,7 @@ label{
 }
 
 .to-top{
-	color:black;
+	color:#747474;
 	padding-top:1.8em;
 	display:inline-block;/* or block */
 	position:relative;
@@ -121,12 +121,12 @@ label{
 }
 .to-top:before{
 	content:'→';
-	font-size:3vw;
+	font-size:3.5vw;
     font-weight: 600;
 	position:absolute;
 	top:0;
 	margin-left:-.7em;
-	border:double 6px white;
+	border:solid 3px #747474;
 	border-radius:10em;
 	width:5vw;
 	height:5vw;
@@ -179,5 +179,9 @@ label{
         width: 11vw;
         height: 11vw;
         font-size: 6vw;
+    }
+    .icon-brand{
+        font-size: 3vh;
+        margin: 0 1vh;
     }
 }

@@ -19,8 +19,8 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path='/portfolio' element={<About/>}/>
-          <Route path='/projects' element={<Technologies/>}/>
-          <Route path='/contact' element={<Contact/>}/>
+            <Route path='/projects' element={<Technologies/>}/>
+            <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
        
