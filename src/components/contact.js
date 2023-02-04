@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import '../styles/contact.css';
 import Alert from 'react-bootstrap/Alert';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import emailjs from '@emailjs/browser';
 
 

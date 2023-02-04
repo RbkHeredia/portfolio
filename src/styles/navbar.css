@@ -5,8 +5,8 @@
     font-weight: 600;
     font-size: 4vh;
     justify-content: center;
-    margin-top: 3vh;
-    min-height: 10vh;
+    padding-top: 3vh;
+    height: 13vh;
     background-color: white;
     position:sticky;
     z-index: 10;
@@ -97,5 +97,6 @@ ul:focus::after {
 @media screen and (max-width:480px) {
     .container-nav{
         font-size: 5vw;
+        height: 10vh;
     }
 }

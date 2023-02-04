@@ -12,10 +12,10 @@ export default function Technologies (){
   };
 
   const carouselDates = [
-    {id:1, name: 'Turnero-odontologia', description: 'Backend de turnero con login de usuario', tecnologias:['nodejs.png', 'graphql.png', 'sequelize.png', 'webpack.png', 'express-js.png', 'apollo.png', 'jwt.png'], imagen: 'backend-passera.jpg'},
-    {id:2, name: 'Turnero-odontologia', description: 'Frontend de turnero con login de usuario', tecnologias: ['react.png', 'apollo.png'], imagen: 'frontend-passera.jpg'},
-    {id:3, name: 'Portfolio', description: 'Portfolio personal', tecnologias: ['react.png', 'bootstrap.png'], imagen: 'portfolio.jpg'},
-    {id:4, name: 'Input-tag-box', description: 'Caja creadora de chips a traves de inputs y manejor de teclado', tecnologias: ['react.png', 'mui.png'], imagen: 'input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'}
+    {id:1, name: 'Turnero-odontologia', description: 'Backend de turnero con login de usuario', tecnologias:['nodejs.png', 'graphql.png', 'sequelize.png', 'webpack.png', 'express-js.png', 'apollo.png', 'jwt.png'], imagen: 'portfolio/assets/backend-passera.jpg'},
+    {id:2, name: 'Turnero-odontologia', description: 'Frontend de turnero con login de usuario', tecnologias: ['react.png', 'apollo.png'], imagen: 'portfolio/assets/frontend-passera.jpg'},
+    {id:3, name: 'Portfolio', description: 'Portfolio personal', tecnologias: ['react.png', 'bootstrap.png'], imagen: 'portfolio/assets/portfolio.jpg'},
+    {id:4, name: 'Input-tag-box', description: 'Caja creadora de chips a traves de inputs y manejor de teclado', tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'}
 
   ]
   return(
@@ -27,13 +27,13 @@ export default function Technologies (){
               <div className='cont-tech'>
                 <img
                   className="img-carousel"
-                  src={`assets/${date.imagen}`}
+                  src={date.imagen}
                   alt={`slide${date.id}`}
                 />
                 <div className='flex-tech'>
                   {date.tecnologias.map((tech, index)=>(
                     <div  key={index} className='img-logos'>
-                      <img src={`assets/logos/${tech}`} className='logos'/>
+                      <img src={`portfolio/assets/logos/${tech}`} className='logos' alt=''/>
                     </div>
                   ))}
                 </div>
