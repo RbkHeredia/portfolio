@@ -17,12 +17,12 @@ export default function About (){
       <div className='container-text'>
         <div className='cont-text'>
           <h1>Sobre mi</h1>
-          <p>Soy una persona entusiaste y responsable, con interés en el diseño y la tecnología. 
+          <p>Soy una persona entusiasta y responsable, con interés en el diseño y la tecnología. 
             Comprometida con el servicio al cliente y la entrega de proyectos en tiempo y forma.</p>
         </div>
         <div className='cont-button-about'>
           <button className='button-download'>
-            <a href='portfolio/assets/CV-Rebe.pdf' target="_blank" rel="noopener noreferrer" download="curriculumRebeca.pdf">
+            <a href='portfolio/assets/CV-Rebe-dev.pdf' target="_blank" rel="noopener noreferrer" download="curriculumRebeca.pdf">
               Descargar CV
               <FontAwesomeIcon icon={faDownload} className='fa-download'/>
             </a>
