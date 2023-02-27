@@ -1,0 +1,43 @@
+{
+    "navbar":{
+        "about":"About",
+        "projects":"Projects",
+        "contact":"Contact",
+        "button":{
+            "idiom":"Language",
+            "spanish":"Spanish",
+            "english":"English"
+        }
+    },
+    "about":{
+        "profession":"Web developer",
+        "title":"About me",
+        "text":"I'm an enthusiastic and responsible person, with an interest in design and technology. I'm committed to costumer service and to achieve project delivery goals.",
+        "download":"Download CV"
+    },
+    "technologies":{
+        "turneroBack":{
+            "name":"Patient-Appointment-system",
+            "description":"Backend of appointment system with user login"
+        },
+        "turneroFront":{
+            "name":"Patient-Appointment-system",
+            "description":"Frontend of appointment system with user login"
+        },
+        "portfolio":{
+            "name":"Portfolio",
+            "description":"Personal portfolio"
+        },
+        "input-tag":{
+            "description":"Input tag box with chips usage and keyboard control"
+        }
+    },
+    "contact":{
+        "name":"Name",
+        "business":"Subject",
+        "message":"Message",
+        "alert":"Thank you for your interest!"
+    }
+
+    
+}

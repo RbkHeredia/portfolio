@@ -2,8 +2,11 @@ import { useState } from 'react';
 import '../styles/technologies.css';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useTranslation } from 'react-i18next';
 
 export default function Technologies (){
+
+  const [t] = useTranslation("global");
 
   const [index, setIndex] = useState(0);
 
@@ -12,10 +15,10 @@ export default function Technologies (){
   };
 
   const carouselDates = [
-    {id:1, name: 'Turnero-odontologia', description: 'Backend de turnero con login de usuario', tecnologias:['nodejs.png', 'graphql.png', 'sequelize.png', 'webpack.png', 'express-js.png', 'apollo.png', 'jwt.png'], imagen: 'portfolio/assets/backend-passera.jpg', link:'https://odontologia-back-production.up.railway.app/graphql' },
-    {id:2, name: 'Turnero-odontologia', description: 'Frontend de turnero con login de usuario', tecnologias: ['react.png', 'apollo.png'], imagen: 'portfolio/assets/frontend-passera.jpg', link:'https://magical-kheer-57ed52.netlify.app/'},
-    {id:3, name: 'Portfolio', description: 'Portfolio personal', tecnologias: ['react.png', 'bootstrap.png'], imagen: 'portfolio/assets/portfolio.jpg', link: 'https://rbkheredia.github.io/portfolio/'},
-    {id:4, name: 'Input-tag-box', description: 'Caja creadora de chips a traves de inputs y manejor de teclado', tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'}
+    {id:1, name: `${t("technologies.turneroBack.name")}`, description: `${t("technologies.turneroBack.description")}`, tecnologias:['nodejs.png', 'graphql.png', 'sequelize.png', 'webpack.png', 'express-js.png', 'apollo.png', 'jwt.png'], imagen: 'portfolio/assets/backend-passera.jpg', link:'https://odontologia-back-production.up.railway.app/graphql' },
+    {id:2, name: `${t("technologies.turneroFront.name")}`, description: `${t("technologies.turneroFront.description")}`, tecnologias: ['react.png', 'apollo.png'], imagen: 'portfolio/assets/frontend-passera.jpg', link:'https://magical-kheer-57ed52.netlify.app/'},
+    {id:3, name: 'Portfolio', description: `${t("technologies.portfolio.description")}`, tecnologias: ['react.png', 'bootstrap.png'], imagen: 'portfolio/assets/portfolio.jpg', link: 'https://rbkheredia.github.io/portfolio/'},
+    {id:4, name: 'Input-tag-box', description: `${t("technologies.input-tag.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'}
 
   ]
   return(

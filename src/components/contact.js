@@ -5,9 +5,12 @@ import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import  { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next'
 
 
 export default function Contact (){
+
+  const [t]= useTranslation("global");
 
   const [formData, setFormData] = useState({name:'', business:'', message:''})
   const [showAlert, setShowAlert] = useState(false)
@@ -46,7 +49,7 @@ export default function Contact (){
       <div className='cont-contact'>
         <div className='cont-left-contact'>
           <div className='cont-title-contact'>
-            <h1>Links</h1>
+            
           </div>
           <div className='cont-contact-info'>
             <a href='https://github.com/RbkHeredia'>
@@ -65,17 +68,17 @@ export default function Contact (){
           <form>
 
             <div className='input-section'>
-              <label htmlFor='name'>Nombre</label>
+              <label htmlFor='name'>{t("contact.name")}</label>
               <input id='name' maxLength={40} onChange={handleName} value={formData.name} required/>
             </div>
 
             <div className='input-section'>
-              <label htmlFor='business' >Asunto</label>
+              <label htmlFor='business' >{t("contact.business")}</label>
               <input id='business' onChange={handleBusiness} value={formData.business} required/>
             </div>
 
             <div className='input-section'>
-              <label htmlFor='message' >Mensaje</label>
+              <label htmlFor='message' >{t("contact.message")}</label>
               <textarea id='message' onChange={handleMessage} value={formData.message} required/>
             </div>
 
@@ -87,7 +90,7 @@ export default function Contact (){
         </div>
         {showAlert &&
           <Alert variant='success' >
-            Gracias por escribirme!
+            {t("contact.alert")}
           </Alert>
         }
       </div>

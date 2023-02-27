@@ -1,0 +1,43 @@
+{
+    "navbar":{
+        "about":"Sobre mi",
+        "projects":"Proyectos",
+        "contact":"Contacto",
+        "button":{
+            "idiom":"Idioma",
+            "spanish":"Español",
+            "english":"Inglés"
+        }
+    },
+    "about":{
+        "profession":"Desarrolladora web",
+        "title":"Sobre mi",
+        "text":"Soy una persona entusiasta y responsable, con interés en el diseño y la tecnología. Comprometida con el servicio al cliente y la entrega de proyectos en tiempo y forma.",
+        "download":"Descargar CV"
+    },
+    "technologies":{
+        "turneroBack":{
+            "name":"Turnero-odontologia",
+            "description":"Backend de turnero con login de usuario"
+        },
+        "turneroFront":{
+            "name":"Turnero-odontologia",
+            "description":"Frontend de turnero con login de usuario"
+        },
+        "portfolio":{
+            "name":"Portfolio",
+            "description":"Portafolio personal"
+        },
+        "input-tag":{
+            "description":"Caja creadora de chips a traves de inputs y manejo de teclado"
+        }
+    },
+    "contact":{
+        "name":"Nombre",
+        "business":"Asunto",
+        "message":"Mensaje",
+        "alert":"Gracias por escribirme!"
+    }
+
+    
+}
