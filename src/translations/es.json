@@ -17,20 +17,21 @@
     },
     "technologies":{
         "turneroBack":{
-            "name":"Turnero-odontologia",
-            "description":"Backend de turnero con login de usuario"
+            "name":"Turnero-odontologia BE",
+            "description":"Esta API para un turnero de un centro odontológico fue construido con una base de datos MySQL y empaquetado con webpack. Se usó Sequelize para crear los modelos de la base de datos y GraphQL aportó un rápido manejo de queries, utilizando Apollo como servidor."
         },
         "turneroFront":{
-            "name":"Turnero-odontologia",
-            "description":"Frontend de turnero con login de usuario"
+            "name":"Turnero-odontologia FE",
+            "description":"El Front end del sistema de turnos fue creado a partir de los colores que utiliza el centro odontologico, diseñado en CSS, logrando una pagina facil de usar y responsiva. Utilicé el framework React, aprovechando el paquete de react-router, y Apollo Client como conexión con la base de datos."
         },
         "portfolio":{
             "name":"Portfolio",
-            "description":"Portafolio personal"
+            "description":"El portfolio en el que estamos, fue creado y escrito en Javascript, utilizando React, y algunas librerias como Font Awesome, emailjs, bootstrap y react-router."
         },
         "input-tag":{
-            "description":"Caja creadora de chips a traves de inputs y manejo de teclado"
-        }
+            "description":"Este proyecto lo realicé para mejorar y automatizar un componente ya existente de Material UI. Es una caja contenedora en la cual se puede escribir para agregar unos lindos chips por teclado, o eliminarlas tambien por teclado o a traves de click de mouse."
+        },
+        "view-card":"Visitar proyecto"
     },
     "contact":{
         "name":"Nombre",

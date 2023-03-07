@@ -21,10 +21,10 @@ export default function NavBar (){
         
       </li>
       <div className="dropdown">
-        <button className="dropbtn">{t("navbar.button.idiom")}</button>
+        <button className="dropbtn"><strong>{t("navbar.button.idiom")}</strong></button>
         <div className="dropdown-content">
-          <button onClick={()=> i18n.changeLanguage("es")}>{t("navbar.button.spanish")}</button>
-          <button onClick={()=> i18n.changeLanguage("en")}>{t("navbar.button.english")}</button>
+          <button className='drop-button' onClick={()=> i18n.changeLanguage("es")}>{t("navbar.button.spanish")}</button>
+          <button className='drop-button' onClick={()=> i18n.changeLanguage("en")}>{t("navbar.button.english")}</button>
         </div>
       </div>
   

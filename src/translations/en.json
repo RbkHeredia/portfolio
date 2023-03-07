@@ -17,20 +17,21 @@
     },
     "technologies":{
         "turneroBack":{
-            "name":"Patient-Appointment-system",
-            "description":"Backend of appointment system with user login"
+            "name":"Patient-Appointment Back-End",
+            "description":"This API for a dental-center system was built with a MySQL database and packaged with webpack. Sequelize was used to create the data models and GraphQL provided fast query handling, using Apollo as the server"
         },
         "turneroFront":{
-            "name":"Patient-Appointment-system",
-            "description":"Frontend of appointment system with user login"
+            "name":"Patient-Appointment Front-end",
+            "description":"The Front end of the shift system was created from the colors used by the dental center, designed in CSS, achieving an easy to use and responsive page. I used the React framework, taking advantage of the react-router package, and Apollo Client as a connection to the database"
         },
         "portfolio":{
             "name":"Portfolio",
-            "description":"Personal portfolio"
+            "description":"The portfolio in which we are located, was created and written in Javascript, using React, and some libraries such as Font Awesome, emailjs, bootstrap and react-router."
         },
         "input-tag":{
-            "description":"Input tag box with chips usage and keyboard control"
-        }
+            "description":"I did this project to improve and automate an existing Material UI component. It is a container box in which you can write to add some nice tags by keyboard, or delete them also by keyboard or through one click."
+        },
+        "view-card":"Visit project"
     },
     "contact":{
         "name":"Name",
