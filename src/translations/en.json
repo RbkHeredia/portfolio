@@ -24,6 +24,10 @@
             "name":"Patient-Appointment Front-end",
             "description":"The Front end of the shift system was created from the colors used by the dental center, designed in CSS, achieving an easy to use and responsive page. I used the React framework, taking advantage of the react-router package, and Apollo Client as a connection to the database"
         },
+        "register":{
+            "name":"Registration in steps",
+            "description":"This step-by-step form that works as a registration for a freelance user page, uses React as a framework, CSS to style the app skeleton, and some MUI Material components."
+        },
         "landingPage":{
             "name":"Landing page Freelance",
             "description":"This sample landing page was created for a client working as a freelance. It is completely customized by css, using libraries like fontAwesome, using React as a framework."

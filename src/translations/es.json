@@ -24,6 +24,10 @@
             "name":"Turnero-odontologia FE",
             "description":"El Front end del sistema de turnos fue creado a partir de los colores que utiliza el centro odontologico, diseñado en CSS, logrando una pagina facil de usar y responsiva. Utilicé el framework React, aprovechando el paquete de react-router, y Apollo Client como conexión con la base de datos."
         },
+        "register":{
+            "name":"Registro en pasos",
+            "description":"Este formulario en pasos que funciona como registro para una página de usuarios freelancers, utiliza React como framework, CSS para estilizar el esqueleto de la app, y algunos componentes de MUI Material."
+        },
         "landingPage":{
             "name":"Landing page Freelance",
             "description":"Esta landing page modelo fue creada para un cliente trabajando como freelance. Está personalizado en su totalidad por css, utilizando librerias como fontAwesome, utilizando React como framework."
