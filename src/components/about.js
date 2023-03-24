@@ -49,12 +49,13 @@ export default function About (){
           <Certificados 
             image={item.image}
             title={item.title}
+            key={item.id}
           />
         ))}
       </div>
       
       <div className='cont-video'>
-        <video className='video' autoplay="true" muted="true" loop="true" src='portfolio/assets/video.mp4'></video>
+        <video className='video' autoPlay={true} muted={true} loop={true} src='portfolio/assets/video.mp4' poster=''></video>
       </div>
     </div>
   )

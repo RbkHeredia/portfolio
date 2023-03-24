@@ -27,6 +27,7 @@
 .video{
     height: 100%;
     max-height: 120vh;
+    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(235,205,148,0.9977240896358543) 53%, rgba(255,196,0,1) 100%);
 }
 
 .mask-photo{
@@ -195,7 +196,7 @@
 
     .cont-certific{
         padding: 2rem 2rem;
-        bottom: -19rem;
+        bottom: -23rem;
     }
 
     .certif{
