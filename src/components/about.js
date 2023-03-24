@@ -2,10 +2,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import '../styles/about.css';
 import { useTranslation } from 'react-i18next';
+import Certificados from './certif';
 
 export default function About (){
 
-  const [t] = useTranslation("global")
+  const [t] = useTranslation("global");
+
+  const certificados = [
+    {id:1, title:`${t("about.certification.accesibility")}`, image:'/portfolio/assets/certificados/accesibilidad-web.jpeg'},
+    {id:2, title:'CSS', image:'/portfolio/assets/certificados/css.jpeg'},
+    {id:3, title:`${t("about.certification.cybers")}`, image:'/portfolio/assets/certificados/cybersecurity.jpeg'},
+    {id:4, title:`${t("about.certification.git")}`, image:'/portfolio/assets/certificados/git.jpeg'},
+    {id:5, title:`${t("about.certification.react-n")}`, image:'/portfolio/assets/certificados/react-native.jpeg'},
+  ]
 
   return(
     <div className='cont-photo'>
@@ -35,6 +44,14 @@ export default function About (){
         
       </div>
       
+      <div className='cont-certific'>
+        {certificados.map((item)=>(
+          <Certificados 
+            image={item.image}
+            title={item.title}
+          />
+        ))}
+      </div>
       
       <div className='cont-video'>
         <video className='video' autoplay="true" muted="true" loop="true" src='portfolio/assets/video.mp4'></video>

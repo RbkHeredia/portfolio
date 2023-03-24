@@ -114,6 +114,32 @@
     border-left: 2px solid black;
 }
 
+.cont-certific{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom: -12rem;
+    padding: 2rem 7rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #e8e8e8;
+}
+
+.certif{
+    width: 12rem;
+}
+
+.certif > img{
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.certif > img:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
+
 
 @media screen and (max-width:480px) {
     .cont-photo{
@@ -165,5 +191,28 @@
 
     .button-download{
         font-size: 2.5vh;
+    }
+
+    .cont-certific{
+        padding: 2rem 2rem;
+        bottom: -19rem;
+    }
+
+    .certif{
+        width: 5rem;
+    }
+    
+    .certif > img{
+        width: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .certif > h5{
+        font-size: 10px;
+    }
+    
+    .certif > img:hover{
+        transform: scale(1.5);
+        transition: all 0.5s ease-in-out;
     }
 }

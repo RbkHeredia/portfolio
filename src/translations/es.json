@@ -12,8 +12,14 @@
     "about":{
         "profession":"Desarrolladora web",
         "title":"Sobre mi",
-        "text":"Soy una persona entusiasta y responsable, con interés en el diseño y la tecnología. Comprometida con el servicio al cliente y la entrega de proyectos en tiempo y forma.",
-        "download":"Descargar CV"
+        "text":"Desarrolladora web, con experiencia de un año trabajando con Javascript, React, NodeJS, Graphql, Sequelize y otras librerias en frontend y algunos proyectos backend. Soy una persona apasionada por el aprendizaje constante, autodidacta y enfocada en superarme cada dia. Me gustan los trabajos que me desafien con el uso de nuevas tecnologías. Entre mis metas en lo profesional estan las de encontrar un lugar laboral que me permita crecer y en el cual pueda involucrarme en un buen ambiente laboral.",
+        "download":"Descargar CV",
+        "certification":{
+            "accesibility":"Accesibilidad web",
+            "cybers":"Cyber seguridad, fundamentos",
+            "git":"Introducción a Git",
+            "react-n":"React-Native"
+        }
     },
     "technologies":{
         "turneroBack":{
@@ -27,6 +33,10 @@
         "register":{
             "name":"Registro en pasos",
             "description":"Este formulario en pasos que funciona como registro para una página de usuarios freelancers, utiliza React como framework, CSS para estilizar el esqueleto de la app, y algunos componentes de MUI Material."
+        },
+        "card":{
+            "name":"Challenge Card",
+            "description":"Este es mi segundo challenge de Frontend Mentor, elegí una card básica en la que demoré aproximadamente 2 hs. Usé como framework react, estilizando los componentes con css. En esta ocasion aproveché para utilizar el compilador Vite, me resultó una experiencia rápida y ágil."
         },
         "landingPage":{
             "name":"Landing page Freelance",
