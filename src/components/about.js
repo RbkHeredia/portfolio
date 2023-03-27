@@ -55,7 +55,7 @@ export default function About (){
       </div>
       
       <div className='cont-video'>
-        <video className='video' autoPlay={true} muted={true} loop={true} src='portfolio/assets/video.mp4' poster=''></video>
+        <video className='video' autoPlay={true} muted={true} loop={true} src='portfolio/assets/video.mp4'></video>
       </div>
     </div>
   )
