@@ -9,8 +9,8 @@ export default function About (){
   const [t] = useTranslation("global");
 
   const certificados = [
-    {id:1, title:`${t("about.certification.accesibility")}`, image:'/portfolio/assets/certificados/accesibilidad-web.jpeg'},
-    {id:2, title:'CSS', image:'/portfolio/assets/certificados/css.jpeg'},
+    {id:1, title:`${t("about.certification.accesibility")}`, image:'/portfolio/assets/certificados/accesibilidad-web.jpg'},
+    {id:2, title:'CSS', image:'/portfolio/assets/certificados/css.jpg'},
     {id:3, title:`${t("about.certification.cybers")}`, image:'/portfolio/assets/certificados/cybersecurity.jpeg'},
     {id:4, title:`${t("about.certification.git")}`, image:'/portfolio/assets/certificados/git.jpeg'},
     {id:5, title:`${t("about.certification.react-n")}`, image:'/portfolio/assets/certificados/react-native.jpeg'},
