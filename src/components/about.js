@@ -34,7 +34,7 @@ export default function About (){
         </div>
         <div className='cont-button-about'>
           <button className='button-download'>
-            <a href='portfolio/assets/CV-Rebe-dev.pdf' target="_blank" rel="noopener noreferrer" download="curriculumRebeca.pdf">
+            <a href='portfolio/assets/CV-RbkHeredia.pdf' target="_blank" rel="noopener noreferrer" download="curriculumRebeca.pdf">
               {t("about.download")}
               <FontAwesomeIcon icon={faDownload} className='fa-download'/>
             </a>
