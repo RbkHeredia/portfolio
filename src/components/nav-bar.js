@@ -8,18 +8,11 @@ export default function NavBar (){
 
   return(
     <div className="container-nav">
-      <li className='container-list'>
-        <Link to='/portfolio'>
-          <ul >{t("navbar.about")}</ul>
-        </Link>
-        <Link to='/projects'>
-          <ul >{t("navbar.projects")}</ul>
-        </Link>
-        <Link to='/contact'>
-          <ul >{t("navbar.contact")}</ul>
-        </Link>
-        
-      </li>
+      <ul className='container-list'>
+        <li><Link className='link' to='/portfolio'>{t("navbar.about")}</Link></li>
+        <li><Link className='link' to='/projects'>{t("navbar.projects")}</Link></li>
+        <li><Link className='link' to='/contact'>{t("navbar.contact")}</Link></li>        
+      </ul>
       <div className="dropdown">
         <button className="dropbtn"><strong>{t("navbar.button.idiom")}</strong></button>
         <div className="dropdown-content">

@@ -81,21 +81,22 @@
     color: white;
 }
 
-ul{
+li, .link{
     width: auto;
     padding-left: 0 !important;
     padding-bottom: 2vh;
     display: inline-block;
     position: relative;
     color: #b1b1b1;
+    text-decoration: none;
 }
 
-ul:hover{
+li:hover, .link:hover{
     cursor: pointer;
     color:#747474
 }
 
-ul::after {
+li::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -108,8 +109,8 @@ ul::after {
     transition: transform 0.25s ease-out;
 }
   
-ul:hover::after,
-ul:focus::after {
+li:hover::after,
+li:focus::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
