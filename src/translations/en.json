@@ -49,6 +49,10 @@
         "input-tag":{
             "description":"I did this project to improve and automate an existing Material UI component. It is a container box in which you can write to add some nice tags by keyboard, or delete them also by keyboard or through one click."
         },
+        "challenge-FE-Mentor":{
+            "name":"CC Challenge",
+            "description":"FrontEnd Mentor Challenge in which I was able to deepen my knowledge in forms and validations of entered data. It is developed with React, Vite and CSS."
+        },
         "view-card":"Visit project"
     },
     "contact":{

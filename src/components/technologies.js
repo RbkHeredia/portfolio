@@ -14,8 +14,10 @@ export default function Technologies (){
     {id:2, name: `${t("technologies.register.name")}`, description: `${t("technologies.register.description")}`, tecnologias: ['react.png', 'apollo.png'], imagen: 'portfolio/assets/form-register.jpeg', link:'https://rbkheredia.github.io/form-register/'},
     /* {id:2, name: `${t("technologies.turneroFront.name")}`, description: `${t("technologies.turneroFront.description")}`, tecnologias: ['react.png', 'apollo.png'], imagen: 'portfolio/assets/frontend-passera.jpg', link:'https://magical-kheer-57ed52.netlify.app/'}, */
     {id:3, name: 'Portfolio', description: `${t("technologies.portfolio.description")}`, tecnologias: ['react.png', 'bootstrap.png'], imagen: 'portfolio/assets/portfolio.jpg', link: 'https://rbkheredia.github.io/portfolio/'},
-    {id:4, name: 'Input-tag-box', description: `${t("technologies.card.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'},
-    {id:4, name: 'Challenge Card', description: `${t("technologies.card.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/card.jpeg', link:'https://rbkheredia.github.io/fm-card/'},
+    {id:4, name: 'Input-tag-box', description: `${t("technologies.input-tag.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'},
+    {id:5, name: 'Challenge Card', description: `${t("technologies.card.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/card.jpeg', link:'https://rbkheredia.github.io/fm-card/'},
+    {id:6, name: `${t("technologies.challenge-FE-Mentor.name")}`, description: `${t("technologies.challenge-FE-Mentor.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: 'portfolio/assets/cc-challenge.jpeg', link:'https://rbkheredia.github.io/challenge-form/'},
+
 
   ]
   return(

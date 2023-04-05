@@ -49,6 +49,10 @@
         "input-tag":{
             "description":"Este proyecto lo realicé para mejorar y automatizar un componente ya existente de Material UI. Es una caja contenedora en la cual se puede escribir para agregar unos lindos chips por teclado, o eliminarlas tambien por teclado o a traves de click de mouse."
         },
+        "challenge-FE-Mentor":{
+            "name":"CC Challenge",
+            "description":"Challenge de FrontEnd Mentor en el cual pude profundizar mis conocimientos en formularios y validaciones de datos ingresados. Está desarrollado con React, Vite y CSS."
+        },
         "view-card":"Visitar proyecto"
     },
     "contact":{
