@@ -1,6 +1,6 @@
 .cont-all{
     height: 100vh;
-    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(235,205,148,0.9977240896358543) 53%, rgba(255,196,0,1) 100%);
+    background-color: rgba(199,199,199,1);
     width: 100%;
     padding-top: 10vh;
     display: flex;

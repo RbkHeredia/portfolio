@@ -132,15 +132,35 @@
 }
 
 .certif > img{
-    width: 12rem;
+    height: 9rem;
     margin-bottom: 1rem;
+    width: auto;
 }
 
 .certif > img:hover{
     transform: scale(1.5);
     transition: all 0.5s ease-in-out;
+    margin: 0 1rem
 }
 
+@media screen and (max-width:1200px) {
+
+    .cont-certific{
+        bottom: -17rem
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .certif{
+        width: 10rem;
+    }
+
+    .certif > img{
+        height: 6rem;
+        width: auto;
+    }
+}
 
 @media screen and (max-width:480px) {
     .cont-photo{
@@ -196,17 +216,10 @@
 
     .cont-certific{
         padding: 2rem 2rem;
-        bottom: -23rem;
+        bottom: -28rem;
     }
 
-    .certif{
-        width: 5rem;
-    }
     
-    .certif > img{
-        width: 5rem;
-        margin-bottom: 1rem;
-    }
 
     .certif > h5{
         font-size: 10px;
