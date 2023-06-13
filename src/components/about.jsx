@@ -9,11 +9,11 @@ export default function About (){
   const [t] = useTranslation("global");
 
   const certificados = [
-    {id:1, title:`${t("about.certification.accesibility")}`, image:'/portfolio/assets/certificados/accesibilidad-web.jpg'},
-    {id:2, title:'CSS', image:'/portfolio/assets/certificados/css.jpg'},
-    {id:3, title:`${t("about.certification.cybers")}`, image:'/portfolio/assets/certificados/cybersecurity.jpeg'},
-    {id:4, title:`${t("about.certification.git")}`, image:'/portfolio/assets/certificados/git.jpeg'},
-    {id:5, title:`${t("about.certification.react-n")}`, image:'/portfolio/assets/certificados/react-native.jpeg'},
+    {id:1, title:`${t("about.certification.accesibility")}`, image:'/assets/certificados/accesibilidad-web.jpg'},
+    {id:2, title:'CSS', image:'/assets/certificados/css.jpg'},
+    {id:3, title:`${t("about.certification.cybers")}`, image:'/assets/certificados/cybersecurity.jpeg'},
+    {id:4, title:`${t("about.certification.git")}`, image:'/assets/certificados/git.jpeg'},
+    {id:5, title:`${t("about.certification.react-n")}`, image:'/assets/certificados/react-native.jpeg'},
   ]
 
   return(
@@ -21,7 +21,7 @@ export default function About (){
       
       <div className='container-photo'>
         <div className='mask-photo'>
-          <img alt='mi-foto' className='photo' src='/portfolio/assets/mi-foto.jpg'></img>
+          <img alt='mi-foto' className='photo' src='/assets/mi-foto.jpg'></img>
           <h3>Rebeca Heredia</h3>
           <h4>{t("about.profession")}</h4>
         </div>
@@ -55,7 +55,7 @@ export default function About (){
       </div>
       
       <div className='cont-video'>
-        <video className='video' autoPlay={true} muted={true} loop={true} src='/portfolio/assets/video.mp4'></video>
+        <video className='video' autoPlay={true} muted={true} loop={true} src='/assets/video.mp4'></video>
       </div>
     </div>
   )

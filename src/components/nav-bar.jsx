@@ -9,7 +9,7 @@ export default function NavBar (){
   return(
     <div className="container-nav">
       <ul className='container-list'>
-        <li><Link className='link' to='/portfolio'>{t("navbar.about")}</Link></li>
+        <li><Link className='link' to='/'>{t("navbar.about")}</Link></li>
         <li><Link className='link' to='/projects'>{t("navbar.projects")}</Link></li>
         <li><Link className='link' to='/contact'>{t("navbar.contact")}</Link></li>        
       </ul>

@@ -30,7 +30,7 @@ export default function Contact (){
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formData, process.env.REACT_APP_PUBLIC_KEY)
+    emailjs.send(import.meta.env.REACT_APP_SERVICE_ID, import.meta.env.REACT_APP_TEMPLATE_ID, formData, import.meta.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text)
         setShowAlert(true)
