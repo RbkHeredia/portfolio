@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import '../styles/about.css';
+import foto from '/assets/port-moji.png';
 import { useTranslation } from 'react-i18next';
-import Certificados from './certif';
+import Circle from './circle';
 
 export default function About (){
 
@@ -20,11 +21,8 @@ export default function About (){
     <div className='cont-photo'>
       
       <div className='container-photo'>
-        <div className='mask-photo'>
-          <img alt='mi-foto' className='photo' src='/assets/mi-foto.jpg'></img>
-          <h3>Rebeca Heredia</h3>
-          <h4>{t("about.profession")}</h4>
-        </div>
+        <img src={foto} className='img-portfolio' style={{zIndex:'2'}}/>
+
         
       </div>
       <div className='container-text'>
@@ -32,7 +30,7 @@ export default function About (){
           <h1>{t("about.title")}</h1>
           <p>{t("about.text")}</p>
         </div>
-        <div className='cont-button-about'>
+        {/* <div className='cont-button-about'>
           <button className='button-download'>
             <a href='/assets/CV-RbkHeredia.pdf' target="_blank" rel="noopener noreferrer" download="curriculumRebeca.pdf">
               {t("about.download")}
@@ -40,23 +38,15 @@ export default function About (){
             </a>
             
           </button>
-        </div>
+        </div> */}
         
       </div>
-      
-      <div className='cont-certific'>
-        {certificados.map((item)=>(
-          <Certificados 
-            image={item.image}
-            title={item.title}
-            key={item.id}
-          />
-        ))}
+      <div className='info-foot2'>
+        <h2>2023</h2>
+        <p>Portfolio</p>
+        <div className='white-line'></div>
       </div>
-      
-      <div className='cont-video'>
-        <video className='video' autoPlay={true} muted={true} loop={true} src='/assets/video.mp4'></video>
-      </div>
+      <Circle top='45rem' left='-10rem'/>
     </div>
   )
 }

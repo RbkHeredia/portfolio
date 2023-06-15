@@ -1,20 +1,23 @@
-main {
+.cont-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 18rem;
+    height: 18rem;
+    padding: 2rem;
 }
+
+
   
 .card {
-    width: 35rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     border: 2px solid white;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    color: black;
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-    margin-bottom: 2rem;
-    background-color: rgb(209, 161, 3);
+    color: white;
+    background-color: black;
+    z-index: 2;
 }
 .card > img {
     position: absolute;
@@ -27,42 +30,38 @@ main {
     transition: opacity .2s ease-out;
 }
 
+
 .card-content{
-    background-color: burlywood;
-}
-  
-.card-content > h2 {
-    position: absolute;
-    inset: auto auto 30px 30px;
-    margin: 0;
-    transition: inset .3s .3s ease-out;
-    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
     
-.card-content > p {
+.card-content > h2 {
     position: absolute;
     opacity: 0;
     max-width: 80%;
     transition: opacity .3s ease-out;
-    color:black;
-    inset: auto auto 80px 30px;
-}
-    
-    
-.card:hover > .card-content > p {
-    inset: auto auto 80px 30px;
-    opacity: 1;
-    transition: opacity .5s .1s ease-in;
+    font-size: 18px;
+    color:white;
+    inset: 100px 25px;
 }
 
+
 .card:hover > .card-content > h2 {
-    color: black;
-    transition: opacity .5s .1s ease-in;
+    inset: 25px 25px;
+    opacity: 1;
+    transition:  .5s .1s ease-in;
+    
 }
+
+
     
 .card:hover > img {
     transition: opacity .3s ease-in;
     opacity: 0;
+
 }
 
 .material-symbols-outlined {

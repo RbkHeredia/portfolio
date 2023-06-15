@@ -1,0 +1,121 @@
+.cont-contactP{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.info-topContact{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.info-topContact >p{
+    margin-bottom: 0;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.white-line{
+    height: 5px;
+}
+
+.cont-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    outline: none;
+    border: 3px solid white;
+    min-width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.left-form{
+    width: 45%;
+}
+
+.right-form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 18px;
+}
+
+textarea{
+    outline: none;
+    border:3px solid white;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: black;
+    color:white;
+}
+
+.to-top{
+	color:white;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:black;
+	text-decoration:none;
+	transition:all .3s ease-out;
+    width: 5vw;
+    height: 5vw;
+    border:none;
+    background-color: transparent;
+}
+.to-top:before{
+	content:'→';
+	font-size:3.5vw;
+    font-weight: 600;
+	position:absolute;
+	top:0;
+	margin-left:-.7em;
+	border:solid 3px white;
+	border-radius:10em;
+	width:5vw;
+	height:5vw;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:#F8049C;
+	border-color:#F8049C;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}
+
+.cont-icons-contact{
+    display: flex;
+    color:white
+}
+
+.icon-brand{
+    font-size: 7vh;
+    margin-right: 5vh;
+}
+
+.icon-brand:hover{
+    color:#F8049C;
+}
+
+.icon-brand{
+    color: white;
+}

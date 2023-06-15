@@ -4,115 +4,36 @@
     align-items: center;
     font-weight: 600;
     font-size: 4vh;
-    justify-content: center;
-    padding-top: 3vh;
+    padding-left: 20%;
     height: 13vh;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     position:sticky;
     z-index: 10;
     top: 0;
-    color: #747474;
 }
 
-.container-list{
-    width: 80%;
+.cont-chips{
+    width: 23%;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
 }
 
-
-.dropbtn {
-    background-color: #b1b1b1;
-    color: black;
-    padding: 16px;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-    top: 20px;
-    width: 100px;
-    outline: none;
-}
-  
-.dropdown {
-    width: 100px;
-    position: relative;
-    display: inline-block;
-    margin-top: -20px
-}
-  
-.dropdown-content {
-    width: 100px;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    display: none
-}
-  
-.dropdown-content > button {
-    width: 100px;
-    color: #747474;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-weight: 300;
-    font-size: 20px;
-    border: none
-}
-
-  
-.dropdown-content > button:hover {
-    width: 100px;
-    background-color: rgb(240, 203, 83); 
-    color:#747474;
-    outline: none;
-}
-  
-.dropdown:hover .dropdown-content {
-    width: 100px;
-    display: block;
-}
-  
-.dropdown:hover .dropbtn {
-    width: 100px;
-    background-color: #747474;
+.chip{
+    border: 3px solid white;
+    padding: 0 25px;
     color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    background-color: black;
 }
 
-li, .link{
-    width: auto;
-    padding-left: 0 !important;
-    padding-bottom: 1vh;
-    display: inline-block;
-    position: relative;
-    color: #b1b1b1;
-    text-decoration: none;
-}
-
-li:hover, .link:hover{
-    cursor: pointer;
-    color:#747474
-}
-
-li::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background-color: #747474;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-  
-li:hover::after,
-li:focus::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.chip > span {
+    margin:0.2rem 0;
+    font-size: 20px;
 }
 
 @media screen and (max-width:480px) {
@@ -121,12 +42,4 @@ li:focus::after {
         height: 10vh;
     }
 
-    .dropbtn{
-        padding: 10px;
-        width: 70px;
-        margin-left: 5px;
-    }
-    .dropdown{
-        margin-top: -35px;
-    }
 }

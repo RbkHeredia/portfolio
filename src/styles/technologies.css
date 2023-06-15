@@ -1,11 +1,26 @@
 .cont-technologies{
-    background-color: rgba(199,199,199,1);
+    background-color: black;
     width: 100%;
     color: white;
     display: flex ;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.cont-projects{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.cont-title-projects{
+    width: 50%;
+}
+
+.cont-title-projects>h2{
+    font-size: 60px;
+}
 .cont-title-tech{
     width: 100%;
     display: flex;
@@ -14,7 +29,6 @@
 }
 
 .card-cont{
-    margin-top: 4rem;
     display: flex;
     justify-content: space-evenly;
     max-width: 80%;

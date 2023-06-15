@@ -2,6 +2,7 @@ import '../styles/technologies.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useTranslation } from 'react-i18next';
 import Card from './card';
+import Circle from '../components/circle';
 
 export default function Technologies (){
 
@@ -20,7 +21,15 @@ export default function Technologies (){
   ]
   return(
     <div className="cont-technologies">
-      
+      <div className='cont-projects'>
+        <div className='cont-title-projects'>
+          <h2>Proyectos</h2>
+          <div className='line'></div>
+        </div>
+        <div className='subt'>
+          <p>Desarrollo web</p>
+        </div>
+      </div>
       <div className="card-cont">
         {projectDates.map((item)=>(
           <Card
@@ -32,6 +41,7 @@ export default function Technologies (){
           />
         ))}
     </div>
+    <Circle left='-10rem'/>
     </div>
   )
 }

@@ -1,7 +1,9 @@
 import './App.css';
 
 import About from './components/about';
-import Contact from './components/contact';
+import ContactPage from './components/contactPage';
+import Experience from './components/experience';
+import Home from './components/home';
 import NavBar from './components/nav-bar';
 import Technologies from './components/technologies';
 import {
@@ -15,14 +17,21 @@ import {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <NavBar/>
+      <Home/>
+      <About/>
+      <Experience/>
+      <Technologies/>
+      <ContactPage/>
+     {/*  <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route path='/' element={<About/>}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
             <Route path='/projects' element={<Technologies/>}/>
             <Route path='/contact' element={<Contact/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
        
     </div>
   );

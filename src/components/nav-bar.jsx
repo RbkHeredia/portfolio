@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
 import { useTranslation } from 'react-i18next';
+import Chip from './chip';
 
 export default function NavBar (){
 
@@ -8,19 +9,10 @@ export default function NavBar (){
 
   return(
     <div className="container-nav">
-      <ul className='container-list'>
-        <li><Link className='link' to='/'>{t("navbar.about")}</Link></li>
-        <li><Link className='link' to='/projects'>{t("navbar.projects")}</Link></li>
-        <li><Link className='link' to='/contact'>{t("navbar.contact")}</Link></li>        
-      </ul>
-      <div className="dropdown">
-        <button className="dropbtn"><strong>{t("navbar.button.idiom")}</strong></button>
-        <div className="dropdown-content">
-          <button className='drop-button' onClick={()=> i18n.changeLanguage("es")}>{t("navbar.button.spanish")}</button>
-          <button className='drop-button' onClick={()=> i18n.changeLanguage("en")}>{t("navbar.button.english")}</button>
-        </div>
-      </div>
-  
+     <div className='cont-chips'>
+      <Chip text={t("navbar.button.spanish")} onClick={()=> i18n.changeLanguage("es")}/>
+      <Chip text={t("navbar.button.english")} onClick={()=> i18n.changeLanguage("en")}/>
+     </div>
     </div>
   )
 }

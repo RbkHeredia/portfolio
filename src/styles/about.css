@@ -2,8 +2,13 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     height: 100%;
+    background-color: black;
+    padding: 5rem 0;
+    justify-content: center;
+    overflow-y: hidden;
 }
 
 .cont-video{
@@ -61,19 +66,21 @@
     margin: 0 8vh 0 0;
     border-radius: 10px;
     padding: 3vh;
-    background-color: rgb(255, 255, 255, 0.6);
     height: 100%;
     width:80%;
     font-weight: 300;
     align-items: center;
+    color:white;
 }
 
 .cont-text > h1{
-    font-size: 2.5vw;
+    font-family: 'Kumbh', sans-serif;
+    font-size: 5rem;
 }
 
 .cont-text > p{
-    font-size: 1.3vw;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .mask-photo > h3{
@@ -141,6 +148,19 @@
     transform: scale(1.5);
     transition: all 0.5s ease-in-out;
     margin: 0 1rem
+}
+
+.info-foot2{
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    color:white;
+}
+
+.info-foot2 > h2,.info-foot2 > p{
+    margin-bottom: 0;
+    margin-right: 4rem;
 }
 
 @media screen and (max-width:1200px) {

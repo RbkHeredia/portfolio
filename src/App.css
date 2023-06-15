@@ -1,4 +1,11 @@
 .App {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
+a{
+  color:white;
+}
+
+a:hover{
+  color:#F8049C;
+}
