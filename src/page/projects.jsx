@@ -15,7 +15,7 @@ export default function Projects(){
     <div className="cont-project">
       <div className="projects">
         <div className="portada">
-          <img style={{objectFit: "cover", width:"100%", height:"100%", borderRadius:"42px", opacity:".7"}} src={element.imagen}/>
+          <img style={{objectFit: "cover", width:"100%", height:"100%", borderRadius:"42px", opacity:".7"}} src={`../${element.imagen}`}/>
         </div>
         <div className='project-content'>
           <div className='project-left'>

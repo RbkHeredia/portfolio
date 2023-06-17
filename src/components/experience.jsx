@@ -31,8 +31,8 @@ export default function Experience (){
       </div>
       <div className='white-line' style={{width:'80%'}}></div>
 
-      <Circle top='100rem' right='5rem'/>
-      <Circle top='110rem' right='-5rem'/>
+      <Circle top='15rem' right='5rem'/>
+      <Circle top='18rem' right='-5rem'/>
     </div>
   )
 }
