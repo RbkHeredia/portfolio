@@ -1,0 +1,61 @@
+.cont-project{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.projects{
+    width: 80%;
+    color: white
+}
+
+.portada{
+    width: 100%;
+    border: 8px solid white;
+    border-radius: 50px;
+    height: 15rem;
+}
+
+.cont-chips{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.project-content{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-skills{
+    width: 15rem;
+    border: 4px solid white;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.project-left{
+    padding-right:2rem
+}
+
+@media screen and (max-width:600px) {
+    .project-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project-left{
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+
+    .cont-chips{
+        justify-content: center;
+    }
+}

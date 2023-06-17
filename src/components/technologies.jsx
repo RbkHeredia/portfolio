@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useTranslation } from 'react-i18next';
 import Card from './card';
 import Circle from '../components/circle';
+import { projectsInfo } from '../mock/projects';
 
 export default function Technologies (){
 
@@ -16,24 +17,23 @@ export default function Technologies (){
     {id:4, name: 'Input-tag-box', description: `${t("technologies.input-tag.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: '/assets/input-tag.jpg', link:'https://rbkheredia.github.io/Mui-Material.-React.-Input-Tags-Box/index'},
     {id:5, name: 'Challenge Card', description: `${t("technologies.card.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: '/assets/card.jpeg', link:'https://rbkheredia.github.io/fm-card/'},
     {id:6, name: `${t("technologies.challenge-FE-Mentor.name")}`, description: `${t("technologies.challenge-FE-Mentor.description")}`, tecnologias: ['react.png', 'mui.png'], imagen: '/assets/cc-challenge.jpeg', link:'https://rbkheredia.github.io/challenge-form/'},
-
-
   ]
   return(
     <div className="cont-technologies">
       <div className='cont-projects'>
         <div className='cont-title-projects'>
-          <h2>Proyectos</h2>
+          <h2>{t("projects.title")}</h2>
           <div className='line'></div>
         </div>
         <div className='subt'>
-          <p>Desarrollo web</p>
+          <p>{t("projects.subt")}</p>
         </div>
       </div>
       <div className="card-cont">
-        {projectDates.map((item)=>(
+        {projectsInfo.map((item)=>(
           <Card
             key={item.id}
+            id={item.id}
             image={item.imagen}
             title={item.name}
             description={item.description}

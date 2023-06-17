@@ -12,7 +12,7 @@
     "about":{
         "profession":"Web developer",
         "title":"About me",
-        "text":"Web developer, with one year of experience working with Javascript, React, NodeJS, Graphql, Sequelize and other libraries in frontend and some backend projects. I am a person who is passionate about constant learning, self-taught and focused on improving myself every day. I like jobs that challenge me with the use of new technologies. Among my professional goals are to find a workplace that allows me to grow and in which I can get involved in a good work environment.",
+        "text":"Hello! My name is Rebeca and the little one in the photo is my partner Mojito. We like to travel, we recently traveled from Córdoba, Argentina to Montevideo, Uruguay by car and returned by ship, making a stop in Buenos Aires. I'm a web developer, with experience in different technologies. I have more facility for the frontend, although I also like the backend.And now the important thing: Mojito is 10 years old, he likes to walk, dog toys, he is afraid of bugs and he is a bit dramatic when he needs to visit the vet. We hope you get to know us a little better!",
         "download":"Download CV",
         "certification":{
             "accesibility":"Web Accesibility",
@@ -20,6 +20,17 @@
             "git":"Git Introduction",
             "react-n":"React-Native"
         }
+    },
+    "experience":{
+        "title":"Work Experience",
+        "development":"Frontend & Backend development",
+        "support":"Technical support"
+        
+    },
+    "projects":{
+        "title":"Projects",
+        "subt":"Web development",
+        "chip":"Visit project"
     },
     "technologies":{
         "turneroBack":{
@@ -56,10 +67,12 @@
         "view-card":"Visit project"
     },
     "contact":{
+        "title":"Contact",
         "name":"Name",
         "business":"Subject",
         "message":"Message",
-        "alert":"Thank you for your interest!"
+        "alert":"Thank you for your interest!",
+        "thanks":"Thank you!"
     }
 
     

@@ -29,7 +29,7 @@ export default function ContactPage(){
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.send(import.meta.env.REACT_APP_SERVICE_ID, import.meta.env.REACT_APP_TEMPLATE_ID, formData, import.meta.env.REACT_APP_PUBLIC_KEY)
+    emailjs.send(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, formData, import.meta.env.VITE_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text)
         setShowAlert(true)
@@ -45,11 +45,11 @@ export default function ContactPage(){
   return(
     <div className="cont-contactP">
       <div className='info-topContact'>
-        <p>Contacto</p>
+        <p>{t("contact.title")}</p>
         <div className='white-line'></div>
-        <p>Rebeca Heredia</p>
+        <p className='nombre-text'>Rebeca Heredia</p>
       </div>
-      <form >
+      <form onSubmit={sendEmail} >
         <div className='cont-form'>
           <div className='left-form'>
             <label htmlFor='name'>{t("contact.name")}</label>
@@ -67,7 +67,7 @@ export default function ContactPage(){
               </Alert>
             }
             <div className='cont-button'>
-              <button href="#" className="to-top" onClick={sendEmail}></button>
+              <button href="#" className="to-top" type='submit'></button>
             </div>
             <br/>
           </div>
@@ -85,7 +85,7 @@ export default function ContactPage(){
         </a>
       </div>
       <div className='line' style={{width:'60%'}}></div>
-      <h2 style={{fontSize:'80px'}}>Gracias!</h2>
+      <h2 style={{fontSize:'60px'}}>{t("contact.thanks")}</h2>
     </div>
   )
 }

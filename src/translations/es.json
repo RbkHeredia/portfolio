@@ -12,7 +12,7 @@
     "about":{
         "profession":"Desarrolladora web",
         "title":"Sobre mi",
-        "text":"Desarrolladora web, con experiencia de un año trabajando con Javascript, React, NodeJS, Graphql, Sequelize y otras librerias en Frontend y algunos proyectos Backend. Soy una persona apasionada por el aprendizaje constante, autodidacta y enfocada en superarme cada dia. Me gustan los trabajos que me desafien con el uso de nuevas tecnologías. Una de mis metas profesionales es encontrar un puesto que me permita crecer y en el cual pueda involucrarme en un buen ambiente laboral.",
+        "text":"Hola! Mi nombre es Rebeca y el que me acompaña en la foto es mi compañero Mojito. Nos gusta viajar, recientemente viajamos desde Córdoba, Argentina hasta Montevideo, Uruguay en auto y volvimos en buque, haciendo una parada en Buenos Aires. Yo soy desarrolladora web, con experiencia en diferentes tecnologias. Tengo mayor facilidad para el frontend, aunque tambien me gusta el backend. Y ahora lo importante: Mojito tiene 10 años, le gusta pasear, los juguetes para perros, le tiene miedo a los bichos y es un poco dramático cuando necesita visitar la veterinaria. Esperamos que nos conozcan un poco mas!",
         "download":"Descargar CV",
         "certification":{
             "accesibility":"Accesibilidad web",
@@ -20,6 +20,16 @@
             "git":"Introducción a Git",
             "react-n":"React-Native"
         }
+    },
+    "experience":{
+        "title":"Experiencia Laboral",
+        "development":"Desarrollo Frontend y Backend",
+        "support":"Soporte técnico"
+    },
+    "projects":{
+        "title":"Proyectos",
+        "subt":"Desarrollo web",
+        "chip":"Ir a proyecto"
     },
     "technologies":{
         "turneroBack":{
@@ -56,10 +66,12 @@
         "view-card":"Visitar proyecto"
     },
     "contact":{
+        "title":"Contacto",
         "name":"Nombre",
         "business":"Asunto",
         "message":"Mensaje",
-        "alert":"Gracias por escribirme!"
+        "alert":"Gracias por escribirme!",
+        "thanks":"Gracias!"
     }
 
     

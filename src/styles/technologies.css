@@ -21,12 +21,7 @@
 .cont-title-projects>h2{
     font-size: 60px;
 }
-.cont-title-tech{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5vh;
-}
+
 
 .card-cont{
     display: flex;
@@ -35,78 +30,18 @@
     flex-wrap: wrap;
 }
 
-.carousel-cont{
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    margin: 20vh 0;
-}
-
-.carouselCSS{
-    width: 80%;
-}
-
-.cont-tech{
-    padding: 2vh;
-    border-radius: 15px;
-    background-color: white;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    min-height: 50vh;
-}
-
-.img-carousel{
-    border-radius: 15px ;
-    margin-right: 2vh;
-    height: 35vh;
-}
-
-.color-Black{
-    color: black;
-}
-
-.backg-dates{
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 45%;
-}
-
-.backg-dates > h3{
-    font-size: 2vw;
-    font-weight: 600;
-}
-.backg-dates > p{
-    font-size: 1.5vw;
-}
-
-.img-logos{
-    height: 6vw;
-    width: 6vw;
-    max-width: 10vh;
-    max-height: 10vh;
-    overflow: hidden;
-    display: flex;
-    margin: 2vh;
-    border-radius: 5px;
-    justify-content: center;
-    
-}
 
 .flex-tech{
     display: flex;
     flex-wrap: wrap;
 }
 
-.logos{
-    height: 100%;
-    border-radius: 10px;
-}
+@media screen and (max-width:1000px) {
 
-.carousel-caption{
-    left: 2.5% !important;
-    top: 10rem;
+    .cont-title-projects>h2{
+        font-size: 45px;
+    }
+    
 }
 
 @media screen and (max-width:800px) {
@@ -114,31 +49,12 @@
         flex-direction: column;
     }
 
-    .img-carousel{
-        width: 100%;
-        height: auto;
+    .cont-title-projects>h2{
+        font-size: 30px;
     }
 
-    .carousel-caption{
-        position: absolute;
-        top: 7vh !important;
-        left: 13% !important;
-    }
-
-    .backg-dates{
-        width:100%;
-        height: 7vh;
-        padding: 2vh 0;
-    }
-
-    .flex-tech{
-        height: 30vh;
-        width: 100%;
-        margin-left: 3vh;
-    }
-    .img-logos{
-        width: 11vw;
-        height: 11vw;
+    .card-cont{
+        max-width: 90%;
     }
     
 }

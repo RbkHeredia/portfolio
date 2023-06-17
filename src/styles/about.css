@@ -51,12 +51,7 @@
     font-weight: 600;
 }
 
-.photo{
-    border-radius: 50%;
-    border: 5px solid white;
-    margin: 2vh 0;
-    max-height: 100%;
-}
+
 
 .container-text{
     width: 50%;
@@ -83,44 +78,12 @@
     font-weight: 400;
 }
 
-.mask-photo > h3{
-    font-size: 2.2vw;
-}
-
-.mask-photo > h4{
-    font-size: 1.7vw;
-}
 
 .cont-button-about{
     width: 80%;
     margin-top: 3vh;
 }
 
-.button-download{
-    padding: 1.5vh 0;
-    text-align: end;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.6);
-    font-weight: 600;
-    font-size: 2vw;
-}
-
-.button-download > a{
-    color:#747474;
-}
-
-.button-download > a:hover{
-    color:rgb(209, 161, 3);
-}
-
-.fa-download{
-    margin: 0 3vh;
-    padding-left: 3vh;
-    border-left: 2px solid black;
-}
 
 .cont-certific{
     display: flex;
@@ -134,21 +97,6 @@
     background-color: #e8e8e8;
 }
 
-.certif{
-    width: 12rem;
-}
-
-.certif > img{
-    height: 9rem;
-    margin-bottom: 1rem;
-    width: auto;
-}
-
-.certif > img:hover{
-    transform: scale(1.5);
-    transition: all 0.5s ease-in-out;
-    margin: 0 1rem
-}
 
 .info-foot2{
     width: 80%;
@@ -170,7 +118,7 @@
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
 
     .certif{
         width: 10rem;
@@ -180,15 +128,18 @@
         height: 6rem;
         width: auto;
     }
+    .cont-text > h1{
+        font-size: 4rem;
+    }
+
+    .cont-text > p{
+        font-size: 1rem;
+    }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:800px) {
     .cont-photo{
         flex-direction: column;
-    }
-    .mask-photo{
-        height: 35vh;
-        width: 30vh;
     }
     .container-text{
         width: 100%;
@@ -201,52 +152,12 @@
         width: 80%;
         margin: 0;
     }
-
-    .cont-text > h1{
-        font-size: 6vw;
-    }
     
     .cont-text > p{
-        font-size: 3vw;
-    }
-
-    .mask-photo > h3{
-        font-size: 6vw;
-    }
-
-    .mask-photo > h4{
-        font-size: 5vw;
-    }
-
-    .cont-video{
-        margin-top: 1vh;
-        display: flex;
-        height: 100%;
-    }
-    
-    .video{
-        position: absolute;
-        height: 100vh;
-        left: -40vh;
+        font-size:.8rem;
     }
 
     .button-download{
         font-size: 2.5vh;
-    }
-
-    .cont-certific{
-        padding: 2rem 2rem;
-        bottom: -28rem;
-    }
-
-    
-
-    .certif > h5{
-        font-size: 10px;
-    }
-    
-    .certif > img:hover{
-        transform: scale(1.5);
-        transition: all 0.5s ease-in-out;
     }
 }

@@ -45,7 +45,7 @@
     transition: opacity .3s ease-out;
     font-size: 18px;
     color:white;
-    inset: 100px 25px;
+    inset: auto auto 10px 30px;
 }
 
 
@@ -79,15 +79,10 @@
     color: black
 }
 
-.link-card:hover{
-    color: #747474
-}
+
 
 @media screen and (max-width: 800px) {
-    .card{
-        width: 60vw;
-        height: 40vw;
-    }
+    
 
     .card-content > h2 {
         font-size: 1rem;

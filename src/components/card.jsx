@@ -1,12 +1,11 @@
 import '../styles/card.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 import Chip from '../components/chip';
+import { useNavigate } from 'react-router-dom';
 
 
-export default function Card ({ image, title, description, link }){
-  
+export default function Card ({ image, title, id }){
+  const navigate = useNavigate();
   const [t] = useTranslation("global");
 
   return(
@@ -15,19 +14,11 @@ export default function Card ({ image, title, description, link }){
       <img src={image} alt=""/>
         <div className="card-content">
           <h2>
-            {title}
+            {t(title)}
           </h2>
-          <Chip text='Ir a proyecto'/>
-          {/* eslint-disable-next-line */}
-          {/* <a href={link} className="link-card" target="_blank">
-            <span >{t("technologies.view-card")}
-              <FontAwesomeIcon icon={faArrowRight} className="fa-arrow"/>
-            </span>
-          </a> */}
+          <Chip text={t("projects.chip")} onClick={()=>navigate(`/project/${id}`)}/>
         </div>
-        
     </div>
-    
   </div>
   )
 }
