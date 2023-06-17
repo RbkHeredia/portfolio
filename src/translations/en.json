@@ -73,6 +73,9 @@
         "message":"Message",
         "alert":"Thank you for your interest!",
         "thanks":"Thank you!"
+    },
+    "button":{
+        "back":"back"
     }
 
     

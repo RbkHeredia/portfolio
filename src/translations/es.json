@@ -72,6 +72,9 @@
         "message":"Mensaje",
         "alert":"Gracias por escribirme!",
         "thanks":"Gracias!"
+    },
+    "button":{
+        "back":"atrás"
     }
 
     
