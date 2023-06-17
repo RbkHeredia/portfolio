@@ -21,7 +21,7 @@ export default function Projects(){
           <div className='project-left'>
             <h2>{t(`${element.name}`)}</h2>
             <p>{t(`${element.description}`)}</p>
-            <div style={{display:'flex'}} className='cont-chips'>
+            <div  className='cont-chips'>
               <a target="_blank" href={element.link} style={{textDecoration:'none'}}>
                 <Chip text='demo' />
               </a>
