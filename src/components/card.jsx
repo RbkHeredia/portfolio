@@ -16,7 +16,7 @@ export default function Card ({ image, title, id }){
           <h2>
             {t(title)}
           </h2>
-          <Chip text={t("projects.chip")} onClick={()=>navigate(`/project/${id}`)}/>
+          <Chip text={t("projects.chip")} onClick={()=>navigate(`/portfolio/project/${id}`)}/>
         </div>
     </div>
   </div>

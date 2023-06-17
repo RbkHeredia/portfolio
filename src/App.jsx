@@ -17,8 +17,8 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route path='/' element={<Page/>}/>
-          <Route path='/project/:id' element={<Projects/>} />
+          <Route path='/portfolio/' element={<Page/>}/>
+            <Route path='/portfolio/project/:id' element={<Projects/>} />
         </Routes>
       </BrowserRouter>
        

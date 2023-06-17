@@ -31,7 +31,7 @@ export default function Projects(){
               </a>
             </div>
             <br/>
-            <Link to='/' style={{color:'white'}}>atras</Link>
+            <Link to='/portfolio/' style={{color:'white'}}>atras</Link>
           </div>
           <div className='project-right'>
             <CardSkills techn={element.tecnologias}/>
