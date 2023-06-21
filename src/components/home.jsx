@@ -14,7 +14,7 @@ export default function Home() {
           <h2>{t("about.profession")}</h2>
         </div>
         <div className='home-right'>
-          <img src={foto} className='img-portfolio' style={{zIndex:'2'}}/>
+          <img src={foto} className='img-portfolio' alt='photo-portfolio' style={{zIndex:'2'}}/>
         </div>
       </div>
       

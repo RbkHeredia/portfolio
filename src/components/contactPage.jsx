@@ -67,21 +67,21 @@ export default function ContactPage(){
               </Alert>
             }
             <div className='cont-button'>
-              <button href="#" className="to-top" type='submit'></button>
+              <button aria-label='to-top' href="#" className="to-top" type='submit'></button>
             </div>
             <br/>
           </div>
         </div>
       </form>
       <div className='cont-icons-contact'>
-        <a href='https://github.com/RbkHeredia'>
-          <h5 ><FontAwesomeIcon className='icon-brand' icon={faSquareGithub}/></h5>
+        <a href='https://github.com/RbkHeredia' aria-label='Github-link'>
+          <h3 ><FontAwesomeIcon className='icon-brand' icon={faSquareGithub}/></h3>
         </a>
-        <a href='https://www.linkedin.com/in/rebeca-heredia-60599823a/'>
-          <h5 ><FontAwesomeIcon className='icon-brand' icon={faLinkedin}/></h5>
+        <a href='https://www.linkedin.com/in/rebeca-heredia-60599823a/' aria-label='Linkedin-link'>
+          <h3 ><FontAwesomeIcon className='icon-brand' icon={faLinkedin}/></h3>
         </a>
-        <a href='mailto:rbkheredia@gmail.com'>
-          <h5><FontAwesomeIcon className='icon-brand' icon={faSquareEnvelope} /></h5>
+        <a href='mailto:rbkheredia@gmail.com' aria-label='Email-link'>
+          <h3><FontAwesomeIcon className='icon-brand' icon={faSquareEnvelope}  /></h3>
         </a>
       </div>
       <div className='line' style={{width:'60%'}}></div>

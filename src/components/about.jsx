@@ -10,7 +10,7 @@ export default function About (){
   return(
     <div className='cont-photo'>
       <div className='container-photo'>
-        <img src={foto} className='img-portfolio' style={{zIndex:'2'}}/>
+        <img src={foto} className='img-portfolio' alt='photo-portfolio' style={{zIndex:'2'}}/>
       </div>
       <div className='container-text'>
         <div className='cont-text'>
