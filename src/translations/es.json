@@ -63,6 +63,10 @@
             "name":"CC Challenge",
             "description":"Challenge de FrontEnd Mentor en el cual pude profundizar mis conocimientos en formularios y validaciones de datos ingresados. Está desarrollado con React, Vite y CSS."
         },
+        "news":{
+            "name":"Challenge Noticias",
+            "description":"FrontEnd Mentor Challenge in which I was able to put into practice my knowledge of Bootstrap React, the management of its grid tools, and responsive design. It is developed with React, Vite and CSS to style some components."
+        },
         "view-card":"Visitar proyecto"
     },
     "contact":{
